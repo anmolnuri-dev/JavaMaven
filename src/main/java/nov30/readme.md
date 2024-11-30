@@ -19,7 +19,9 @@
 
 ## 1. Predicate
 Purpose: Represents a condition (boolean-valued function) that tests an input.
+
 Functional Method: _boolean test(T t)_
+
 Example: Filtering elements in a collection.
 
       import java.util.function.Predicate;
@@ -43,9 +45,11 @@ Example: Filtering elements in a collection.
 
 
 ## 2.Consumer
-   Purpose: Represents an operation that takes a single input but does not return a result.
-   Functional Method: _void accept(T t)_
-   Example: Performing actions like printing or modifying elements.
+Purpose: Represents an operation that takes a single input but does not return a result.
+
+Functional Method: _void accept(T t)_
+
+Example: Performing actions like printing or modifying elements.
       
       import java.util.function.Consumer;
       import java.util.Arrays;
@@ -86,7 +90,7 @@ Example:
     }
 
 ## 4. Function
-   Purpose: Represents a function that takes one argument and produces a result.
+Purpose: Represents a function that takes one argument and produces a result.
 
 Functional Method: _R apply(T t)_
 
